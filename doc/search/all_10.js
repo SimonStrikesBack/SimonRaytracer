@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['r_218',['r',['../classRenderEngine.html#a0d996ea02248c4be3d2497cf7f42283d',1,'RenderEngine']]],
+  ['ray_219',['Ray',['../classRay.html',1,'Ray'],['../classRay.html#af2698c44ca0f9d54e5f0274e11014c00',1,'Ray::Ray()']]],
+  ['ray_2ehpp_220',['ray.hpp',['../ray_8hpp.html',1,'']]],
+  ['rayintersection_221',['RayIntersection',['../classgpu__BoundingBox.html#a433075fb86f0d5b80b6ac775e17a5497',1,'gpu_BoundingBox::RayIntersection()'],['../classBoundingBox.html#a4f915aa91d23f7cc640d3748eecc67d8',1,'BoundingBox::RayIntersection()']]],
+  ['reflect_222',['reflect',['../gpu__geomath_8cu.html#a5566d98f6e486f3b97d16479712332a5',1,'reflect(const gpu_vec3 &amp;I, const gpu_vec3 &amp;N):&#160;gpu_geomath.cu'],['../geomath_8hpp.html#a4bd0c710f0949187d6cfc264f2adeeec',1,'reflect(const vec3 &amp;I, const vec3 &amp;N):&#160;geomath.cpp'],['../gpu__geomath_8cuh.html#a5566d98f6e486f3b97d16479712332a5',1,'reflect(const gpu_vec3 &amp;I, const gpu_vec3 &amp;N):&#160;gpu_geomath.cu'],['../geomath_8cpp.html#a4bd0c710f0949187d6cfc264f2adeeec',1,'reflect(const vec3 &amp;I, const vec3 &amp;N):&#160;geomath.cpp']]],
+  ['reflection_223',['reflection',['../classContext.html#a7c8ee38da08449bbbf180f1bec137ec7',1,'Context::reflection()'],['../classgpu__Context.html#a512497c8c077cb264cb23d61b848e376',1,'gpu_Context::reflection()']]],
+  ['refract_224',['refract',['../geomath_8cpp.html#a078cd3ba2db48d6a20052c3e2d524eef',1,'refract(const vec3 &amp;I, const vec3 &amp;N, const float refraction_first, const float ior_second):&#160;geomath.cpp'],['../geomath_8hpp.html#a078cd3ba2db48d6a20052c3e2d524eef',1,'refract(const vec3 &amp;I, const vec3 &amp;N, const float refraction_first, const float ior_second):&#160;geomath.cpp'],['../gpu__geomath_8cu.html#a03fd4825161e7a2c99477c2244f93067',1,'refract(const gpu_vec3 &amp;I, const gpu_vec3 &amp;N, const float refraction_first, const float ior_second):&#160;gpu_geomath.cu'],['../gpu__geomath_8cuh.html#a03fd4825161e7a2c99477c2244f93067',1,'refract(const gpu_vec3 &amp;I, const gpu_vec3 &amp;N, const float refraction_first, const float ior_second):&#160;gpu_geomath.cu']]],
+  ['refraction_225',['refraction',['../classgpu__Material.html#acc275ff50b85304828d6f9ce98458ced',1,'gpu_Material::refraction()'],['../classMaterial.html#aaebf2300e8593a5b62c65f392313542c',1,'Material::refraction()'],['../classgpu__Context.html#a247d0c331a789eb84ce5e9113bd68494',1,'gpu_Context::refraction()'],['../classContext.html#a1a46fd2a09e3c5730096b53715000285',1,'Context::refraction()']]],
+  ['render_226',['Render',['../kernel_8cu.html#a139c80387bb9c59efb6d6202a638b18e',1,'Render():&#160;kernel.cu'],['../classgpu__RenderEngine.html#a39db641dee7028b595e533b527dd0f23',1,'gpu_RenderEngine::Render()']]],
+  ['render_5fengine_2ecpp_227',['render_engine.cpp',['../render__engine_8cpp.html',1,'']]],
+  ['render_5fengine_2ehpp_228',['render_engine.hpp',['../render__engine_8hpp.html',1,'']]],
+  ['renderengine_229',['RenderEngine',['../classRenderEngine.html#ae036a1da28e0712e29c666331fca1064',1,'RenderEngine::RenderEngine()'],['../classRenderEngine.html',1,'RenderEngine']]],
+  ['renderexpensive_230',['RenderExpensive',['../kernel_8cu.html#ab96d41c7933f3532f4a6018bb0114deb',1,'RenderExpensive():&#160;kernel.cu'],['../classgpu__RenderEngine.html#a5497269af2b4d732525959c43a353301',1,'gpu_RenderEngine::RenderExpensive()']]],
+  ['renderparallelcpu_231',['RenderParallelCPU',['../classRenderEngine.html#a409e5ec5b13c3f82a47c9c688ef6c303',1,'RenderEngine']]],
+  ['rendersequential_232',['RenderSequential',['../classRenderEngine.html#a007377120cfd4b8298afa39064d37d4d',1,'RenderEngine']]],
+  ['rgb_233',['RGB',['../classContext.html#a83634b8f179200b4bc588002f90c664cab12963eda5954638b3c05a33b4e5ee79',1,'Context']]],
+  ['right_234',['right',['../classgpu__Context.html#ac369d8e2422c2e805e86d23a7b125bf4',1,'gpu_Context::right()'],['../classContext.html#a65f4656448374cce49823242527f2430',1,'Context::right()'],['../structSAHResult.html#a6ee7ed27882955c194f58fcf8f9dc2ae',1,'SAHResult::right()'],['../classBVHNode.html#a95847eff91863f481036425451e79666',1,'BVHNode::right()']]],
+  ['right_5fidx_235',['right_idx',['../classgpu__CompactBVHNode.html#afc479ccb1c1be8c2b6afba14ba7c3806',1,'gpu_CompactBVHNode::right_idx()'],['../classCompactBVHNode.html#afd4530c5de2ccc83da97730b0c99a61c',1,'CompactBVHNode::right_idx()']]]
+];

@@ -1,0 +1,48 @@
+digraph "gpu_RenderEngine"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="gpu_RenderEngine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="GPU compatible RenderEngine class."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ctx" ,fontname="Helvetica"];
+  Node2 [label="gpu_Context",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgpu__Context.html",tooltip="GPU compatible Context class."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" direction\norigin\np_00\nq_h\nq_w\nright\nup" ,fontname="Helvetica"];
+  Node3 [label="gpu_vec3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgpu__vec3.html",tooltip="GPU compatible vec3 struct."];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" passes" ,fontname="Helvetica"];
+  Node4 [label="gpu_Context::gpu_Buffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgpu__Context_1_1gpu__Buffer.html",tooltip="Represents the buffer of a pass."];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" scene" ,fontname="Helvetica"];
+  Node5 [label="gpu_Scene",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgpu__Scene.html",tooltip="GPU compatible Scene class."];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" compact_BVH" ,fontname="Helvetica"];
+  Node6 [label="gpu_CompactBVHNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgpu__CompactBVHNode.html",tooltip="GPU compatible CompactBVHNode class."];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" box" ,fontname="Helvetica"];
+  Node7 [label="gpu_BoundingBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgpu__BoundingBox.html",tooltip="GPU compatible BoundingBox class."];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" face" ,fontname="Helvetica"];
+  Node8 [label="gpu_triangle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgpu__triangle.html",tooltip="GPU compatible triangle class."];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" material" ,fontname="Helvetica"];
+  Node9 [label="gpu_Material",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgpu__Material.html",tooltip="GPU compatible Material class."];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" normal_map\ntexture" ,fontname="Helvetica"];
+  Node10 [label="gpu_Texture",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgpu__Texture.html",tooltip="GPU compatible Texture class."];
+  Node11 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" brdf" ,fontname="Helvetica"];
+  Node11 [label="gpu_BRDF",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgpu__BRDF.html",tooltip="GPU compatible BRDF class."];
+  Node3 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ambient\ndiffuse\nemissive\nspecular\ntransmittance" ,fontname="Helvetica"];
+  Node12 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" a\nb\nc" ,fontname="Helvetica"];
+  Node12 [label="gpu_vertex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgpu__vertex.html",tooltip="GPU compatible vertex class."];
+  Node13 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" uv" ,fontname="Helvetica"];
+  Node13 [label="gpu_vec2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgpu__vec2.html",tooltip="GPU compatible vec2 struct."];
+  Node3 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" normal\nposition" ,fontname="Helvetica"];
+  Node3 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" centroid\nmax\nmin" ,fontname="Helvetica"];
+  Node14 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" point_lights" ,fontname="Helvetica"];
+  Node14 [label="gpu_PointLight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgpu__PointLight.html",tooltip="GPU compatible PointLight class."];
+  Node3 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" color\nposition" ,fontname="Helvetica"];
+  Node9 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" materials" ,fontname="Helvetica"];
+  Node10 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" textures" ,fontname="Helvetica"];
+  Node15 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" area_lights" ,fontname="Helvetica"];
+  Node15 [label="gpu_AreaLight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgpu__AreaLight.html",tooltip="GPU compatible AreaLight class."];
+  Node8 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" face" ,fontname="Helvetica"];
+  Node3 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" color\nnormal" ,fontname="Helvetica"];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" geometry" ,fontname="Helvetica"];
+  Node11 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" brdfs" ,fontname="Helvetica"];
+  Node16 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" expensive_rays_coordinates" ,fontname="Helvetica"];
+  Node16 [label="gpu_Pair\< int \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgpu__Pair.html",tooltip=" "];
+}

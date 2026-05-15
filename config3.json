@@ -1,0 +1,29 @@
+{
+  "width": 800,
+  "height": 800,
+  "pos": [2.763933, 2.785997, -9.345877],
+  "up": [0, 1, 0],
+  "dir": [0.0, 0.0, 1.0],
+  "fov": 0.6,
+  "scene_path": "./scene/",
+  "scene_name": "box-advanced.obj",
+  "brdf_path": "./brdf/",
+  "output_path" : "./output/3/",
+  "area_light_samples": 16,
+  "max_recursion": 12,
+  "scale" : 1,
+  "BVH" : true,
+  "bvh_build_opt" : true,
+  "Parallelism" : "GPU",
+  "reflection": true,
+  "refraction" : true,
+  "shadows": true,
+  "normal_mapping" : true,
+  "expensive_rays": false,
+  "expensive_threshold": 10,
+
+  "lights": [{"position": [2.75, 4.90, 2.75], "color": [0, 0, 0]}],
+  "passes": {"combined" : true, "depth" : true, "diffuse" : true, "specular" : true, "emissive" : true, "material_diffuse" : true, "material_specular" : true, "reflection" : true, "refraction" : true},
+  "brdf_override" : []
+
+}

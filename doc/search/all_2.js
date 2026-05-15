@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['c_38',['c',['../classgpu__triangle.html#a6fd12b05f262aacfb45c72d93d3df0bc',1,'gpu_triangle::c()'],['../classtriangle.html#ada36a13e7e1e4edd9c31d6a120200761',1,'triangle::c()']]],
+  ['centroid_39',['centroid',['../classBoundingBox.html#ad47bf772805d7ea0695c5f8b6a3bfd62',1,'BoundingBox::centroid()'],['../classgpu__BoundingBox.html#a669b1d3dda90a7b97d419fa777497d6b',1,'gpu_BoundingBox::centroid()']]],
+  ['centroid_40',['Centroid',['../classBoundingBox.html#ae1b345372e8e3813d0d6cdf9efc75336',1,'BoundingBox::Centroid()'],['../classgpu__BoundingBox.html#ae972364f3ba7fd3849b0d3da274a5939',1,'gpu_BoundingBox::Centroid()']]],
+  ['channels_41',['Channels',['../classContext.html#a83634b8f179200b4bc588002f90c664c',1,'Context']]],
+  ['channels_42',['channels',['../structContext_1_1Buffer.html#a5b1fe19ec228564e279a92f46c75ac5c',1,'Context::Buffer::channels()'],['../structgpu__Context_1_1gpu__Buffer.html#a32643881b1d9f840a1fb7040a734a26e',1,'gpu_Context::gpu_Buffer::channels()']]],
+  ['childtype_43',['ChildType',['../classCompactBVHNode.html#a603d47fa2589755c562b214010d9c3f5',1,'CompactBVHNode']]],
+  ['clamp_44',['clamp',['../geomath_8hpp.html#a1b986c89aca16ec87e0e3a784ff83278',1,'clamp():&#160;geomath.hpp'],['../structgpu__vec3.html#ab65c795b69076f28ff6107740ef7c7eb',1,'gpu_vec3::clamp()']]],
+  ['color_45',['color',['../classLight.html#a4de55f2ffad274ae9f37045d975125a4',1,'Light::color()'],['../classgpu__PointLight.html#a65935b662ba526f5718f63651c47439d',1,'gpu_PointLight::color()'],['../classgpu__AreaLight.html#ab1d56f9fbb8f6b965bcf8d62af89625e',1,'gpu_AreaLight::color()']]],
+  ['compact_5fbvh_46',['compact_bvh',['../classScene.html#a0bc72b0ce1a0de0ed8d53bdf20947a71',1,'Scene']]],
+  ['compact_5fbvh_47',['compact_BVH',['../classgpu__Scene.html#ac99e75d32662acbed7d29995113aa575',1,'gpu_Scene']]],
+  ['compact_5fbvh_5fsize_48',['compact_BVH_size',['../classgpu__Scene.html#ab46873de0b3232167630e526901d0269',1,'gpu_Scene']]],
+  ['compactbvhnode_49',['CompactBVHNode',['../classCompactBVHNode.html#a94c75f78329de5b356be3575dd339cf2',1,'CompactBVHNode::CompactBVHNode()'],['../classCompactBVHNode.html',1,'CompactBVHNode']]],
+  ['constants_2ehpp_50',['constants.hpp',['../constants_8hpp.html',1,'']]],
+  ['context_51',['Context',['../classContext.html#ae66b02c2765a1b4babba550e70e19c88',1,'Context::Context()'],['../classContext.html',1,'Context']]],
+  ['context_2ecpp_52',['context.cpp',['../context_8cpp.html',1,'']]],
+  ['context_2ehpp_53',['context.hpp',['../context_8hpp.html',1,'']]],
+  ['copytonormalbuffer_54',['CopyToNormalBuffer',['../structgpu__Context_1_1gpu__Buffer.html#acd9eeab67145d5fcb8648f9649ea7185',1,'gpu_Context::gpu_Buffer']]],
+  ['cost_55',['cost',['../structSAHBest.html#a1931c23481ee6c8b9cb67c2b6afc6eb8',1,'SAHBest']]],
+  ['cpu_56',['CPU',['../classContext.html#a0eacdb0ca1fad6239287294eb34d0f9ca260b52df4b396165d8b6bf7be94ae575',1,'Context']]],
+  ['createoutputbuffer_57',['CreateOutputBuffer',['../namespaceOutputHandler.html#ad4fc02790a3bfa64e68cab99e33ed126',1,'OutputHandler']]],
+  ['cross_58',['cross',['../geomath_8cpp.html#ab5889dcdb0ad1241997e5f127e5c8809',1,'cross(const vec3 &amp;v1, const vec3 &amp;v2):&#160;geomath.cpp'],['../geomath_8hpp.html#ab5889dcdb0ad1241997e5f127e5c8809',1,'cross(const vec3 &amp;v1, const vec3 &amp;v2):&#160;geomath.cpp'],['../gpu__geomath_8cu.html#a18cdb5a0041499de54680cf465275546',1,'cross(const gpu_vec3 &amp;v1, const gpu_vec3 &amp;v2):&#160;gpu_geomath.cu'],['../gpu__geomath_8cuh.html#a18cdb5a0041499de54680cf465275546',1,'cross(const gpu_vec3 &amp;v1, const gpu_vec3 &amp;v2):&#160;gpu_geomath.cu']]],
+  ['ctx_59',['ctx',['../classgpu__RenderEngine.html#a536c6bd4f68725cb56eb7f4ccbf21f53',1,'gpu_RenderEngine::ctx()'],['../classRenderEngine.html#a38b98fc4a3e2b7b1bc49e6198b8fa99a',1,'RenderEngine::ctx()']]]
+];

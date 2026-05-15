@@ -1,0 +1,11 @@
+digraph "src/gpu_code" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"]
+  dir_b0856f6b0d80ccb263b2f415c91f9e17 [shape=box label="include" URL="dir_b0856f6b0d80ccb263b2f415c91f9e17.html"];
+  dir_52cb0cb92e7ba267469f3516d89d8ecd [shape=box, label="gpu_code", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_52cb0cb92e7ba267469f3516d89d8ecd.html"];
+  }
+  dir_52cb0cb92e7ba267469f3516d89d8ecd->dir_b0856f6b0d80ccb263b2f415c91f9e17 [headlabel="1", labeldistance=1.5 headhref="dir_000011_000012.html"];
+}

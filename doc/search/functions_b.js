@@ -1,0 +1,12 @@
+var searchData=
+[
+  ['ray_474',['Ray',['../classRay.html#af2698c44ca0f9d54e5f0274e11014c00',1,'Ray']]],
+  ['rayintersection_475',['RayIntersection',['../classBoundingBox.html#a4f915aa91d23f7cc640d3748eecc67d8',1,'BoundingBox::RayIntersection()'],['../classgpu__BoundingBox.html#a433075fb86f0d5b80b6ac775e17a5497',1,'gpu_BoundingBox::RayIntersection()']]],
+  ['reflect_476',['reflect',['../geomath_8hpp.html#a4bd0c710f0949187d6cfc264f2adeeec',1,'reflect(const vec3 &amp;I, const vec3 &amp;N):&#160;geomath.cpp'],['../gpu__geomath_8cuh.html#a5566d98f6e486f3b97d16479712332a5',1,'reflect(const gpu_vec3 &amp;I, const gpu_vec3 &amp;N):&#160;gpu_geomath.cu'],['../gpu__geomath_8cu.html#a5566d98f6e486f3b97d16479712332a5',1,'reflect(const gpu_vec3 &amp;I, const gpu_vec3 &amp;N):&#160;gpu_geomath.cu'],['../geomath_8cpp.html#a4bd0c710f0949187d6cfc264f2adeeec',1,'reflect(const vec3 &amp;I, const vec3 &amp;N):&#160;geomath.cpp']]],
+  ['refract_477',['refract',['../geomath_8cpp.html#a078cd3ba2db48d6a20052c3e2d524eef',1,'refract(const vec3 &amp;I, const vec3 &amp;N, const float refraction_first, const float ior_second):&#160;geomath.cpp'],['../geomath_8hpp.html#a078cd3ba2db48d6a20052c3e2d524eef',1,'refract(const vec3 &amp;I, const vec3 &amp;N, const float refraction_first, const float ior_second):&#160;geomath.cpp'],['../gpu__geomath_8cu.html#a03fd4825161e7a2c99477c2244f93067',1,'refract(const gpu_vec3 &amp;I, const gpu_vec3 &amp;N, const float refraction_first, const float ior_second):&#160;gpu_geomath.cu'],['../gpu__geomath_8cuh.html#a03fd4825161e7a2c99477c2244f93067',1,'refract(const gpu_vec3 &amp;I, const gpu_vec3 &amp;N, const float refraction_first, const float ior_second):&#160;gpu_geomath.cu']]],
+  ['render_478',['Render',['../classgpu__RenderEngine.html#a39db641dee7028b595e533b527dd0f23',1,'gpu_RenderEngine::Render()'],['../kernel_8cu.html#a139c80387bb9c59efb6d6202a638b18e',1,'Render():&#160;kernel.cu']]],
+  ['renderengine_479',['RenderEngine',['../classRenderEngine.html#ae036a1da28e0712e29c666331fca1064',1,'RenderEngine']]],
+  ['renderexpensive_480',['RenderExpensive',['../classgpu__RenderEngine.html#a5497269af2b4d732525959c43a353301',1,'gpu_RenderEngine::RenderExpensive()'],['../kernel_8cu.html#ab96d41c7933f3532f4a6018bb0114deb',1,'RenderExpensive():&#160;kernel.cu']]],
+  ['renderparallelcpu_481',['RenderParallelCPU',['../classRenderEngine.html#a409e5ec5b13c3f82a47c9c688ef6c303',1,'RenderEngine']]],
+  ['rendersequential_482',['RenderSequential',['../classRenderEngine.html#a007377120cfd4b8298afa39064d37d4d',1,'RenderEngine']]]
+];

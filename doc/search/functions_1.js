@@ -1,0 +1,13 @@
+var searchData=
+[
+  ['bilinear_5fsample_5fx_402',['bilinear_sample_x',['../classTexture.html#a98b3dbf0c159438cb11ed43f4e7d5707',1,'Texture::bilinear_sample_x()'],['../classgpu__Texture.html#aef2871875a5116a6343d90fa74243d4d',1,'gpu_Texture::bilinear_sample_x(const float u, const unsigned int u1, const unsigned int u2, const unsigned int v) const']]],
+  ['bilinear_5fsample_5fxy_403',['bilinear_sample_xy',['../classgpu__Texture.html#a44e37d78640b7f55a0fe8dcb8e15e953',1,'gpu_Texture::bilinear_sample_xy()'],['../classTexture.html#abd61f5e7f47ca3f4adf93385e2258a8d',1,'Texture::bilinear_sample_xy()']]],
+  ['bilinear_5fsample_5fy_404',['bilinear_sample_y',['../classgpu__Texture.html#a4436864a91af9ebfb01d8265357c0c0f',1,'gpu_Texture::bilinear_sample_y()'],['../classTexture.html#a34e8ad5f6204fe156bc093539b66137f',1,'Texture::bilinear_sample_y()']]],
+  ['boundingbox_405',['BoundingBox',['../classBoundingBox.html#a0ee0656e6c237b5eaff693df15de4864',1,'BoundingBox::BoundingBox(const std::shared_ptr&lt; triangle &gt; &amp;face)'],['../classBoundingBox.html#acbc90eced66a1bee0a808af5ea979da1',1,'BoundingBox::BoundingBox(const BoundingBox &amp;a, const BoundingBox &amp;b)'],['../classBoundingBox.html#a422db387bad65efa15d6f44181623234',1,'BoundingBox::BoundingBox(const std::vector&lt; BoundingBox &gt; &amp;vector)']]],
+  ['branchlessonb_406',['branchlessONB',['../gpu__geomath_8cuh.html#a6075e6db9dffc53bb94324ae8590e584',1,'branchlessONB(const gpu_vec3 &amp;normal, gpu_vec3 &amp;tangent, gpu_vec3 &amp;bitangent):&#160;gpu_geomath.cu'],['../gpu__geomath_8cu.html#a6075e6db9dffc53bb94324ae8590e584',1,'branchlessONB(const gpu_vec3 &amp;normal, gpu_vec3 &amp;tangent, gpu_vec3 &amp;bitangent):&#160;gpu_geomath.cu'],['../geomath_8hpp.html#a17d333d5905731381f52f3678f24b888',1,'branchlessONB(const vec3 &amp;normal, vec3 &amp;tangent, vec3 &amp;bitangent):&#160;geomath.cpp'],['../geomath_8cpp.html#a17d333d5905731381f52f3678f24b888',1,'branchlessONB(const vec3 &amp;normal, vec3 &amp;tangent, vec3 &amp;bitangent):&#160;geomath.cpp']]],
+  ['brdf_407',['BRDF',['../classBRDF.html#a453d38b012c433272b117864f1902c52',1,'BRDF']]],
+  ['buffer_408',['Buffer',['../structContext_1_1Buffer.html#a1f1caee6d1d875d6e574f489111dd1fa',1,'Context::Buffer']]],
+  ['buffernamefromstring_409',['BufferNameFromString',['../structgpu__Context_1_1gpu__Buffer.html#ac5b066d9bb5d34ebbc42ce67e3cdde34',1,'gpu_Context::gpu_Buffer']]],
+  ['buildbvh_410',['BuildBVH',['../classBVHNode.html#a7f9a2eb9fd3761b4eec00023f07b822c',1,'BVHNode']]],
+  ['bvhnode_411',['BVHNode',['../classBVHNode.html#a07aa71d83496440fe56db3f376e8359d',1,'BVHNode']]]
+];

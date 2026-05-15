@@ -1,0 +1,15 @@
+digraph "src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+    dir_68267d1309a1af8e8297ef4c3efbcdba [shape=plaintext label="src"];
+  dir_db3001f66ab6e975312791aff63559b5 [shape=box label="cmake-build-debug-visual-studio" fillcolor="white" style="filled" color="red" URL="dir_db3001f66ab6e975312791aff63559b5.html"];
+  dir_0d563574ed7deda3917e81709cb36dbe [shape=box label="cmake-build-release-visual-studio" fillcolor="white" style="filled" color="red" URL="dir_0d563574ed7deda3917e81709cb36dbe.html"];
+  dir_52cb0cb92e7ba267469f3516d89d8ecd [shape=box label="gpu_code" fillcolor="white" style="filled" URL="dir_52cb0cb92e7ba267469f3516d89d8ecd.html"];
+  dir_b0856f6b0d80ccb263b2f415c91f9e17 [shape=box label="include" fillcolor="white" style="filled" URL="dir_b0856f6b0d80ccb263b2f415c91f9e17.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba->dir_52cb0cb92e7ba267469f3516d89d8ecd [headlabel="5", labeldistance=1.5 headhref="dir_000000_000011.html"];
+  dir_52cb0cb92e7ba267469f3516d89d8ecd->dir_b0856f6b0d80ccb263b2f415c91f9e17 [headlabel="1", labeldistance=1.5 headhref="dir_000011_000012.html"];
+}

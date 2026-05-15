@@ -1,0 +1,31 @@
+digraph "src/context.hpp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/context.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Header file containing the Context class."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/context.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$context_8cpp.html",tooltip="Implementation file for context.hpp, see the header file for descriptions."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/gpu_code/gpu_context.cuh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gpu__context_8cuh.html",tooltip="Header file containing the gpu_Context class."];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/gpu_code/gpu_render\l_engine.cuh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gpu__render__engine_8cuh.html",tooltip="Header file containing the gpu_RenderEngine class."];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/gpu_code/gpu_render\l_engine.cu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gpu__render__engine_8cu.html",tooltip="Implementation file for gpu_render_engine.cuh, see the header file for descriptions."];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/kernel.cu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$kernel_8cu.html",tooltip="File containing logic around GPU Kernel calls and GPU compatible class conversions."];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html",tooltip="Main entry point of the entire application."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/OutputHandler.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$OutputHandler_8hpp.html",tooltip="Header file containing the OutputHandler namespace."];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/OutputHandler.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$OutputHandler_8cpp.html",tooltip="Implementation file for OutputHandler.hpp, see the header file for descriptions."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="src/render_engine.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$render__engine_8hpp.html",tooltip="File containing RenderEngine class."];
+  Node10 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="src/render_engine.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$render__engine_8cpp.html",tooltip="Implementation file for render_engine.hpp, see the header file for descriptions."];
+}

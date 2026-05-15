@@ -1,0 +1,11 @@
+digraph "src/gpu_code/gpu_mat3.cuh"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="src/gpu_code/gpu_mat3.cuh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Header file containing the gpu_mat3 struct."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="src/gpu_code/gpu_geomath.cu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gpu__geomath_8cu.html",tooltip="Implementation file for gpu_geomath.cuh, see the header file for descriptions."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/gpu_code/gpu_render\l_engine.cu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gpu__render__engine_8cu.html",tooltip="Implementation file for gpu_render_engine.cuh, see the header file for descriptions."];
+}
